@@ -10,7 +10,8 @@ import "react-toastify/dist/ReactToastify.css";
 function Contact () {
 
 
-  const [setEmailSubmitted] = useState(false);
+  const [setSubmit, setEmailSubmitted] = useState(false);
+
     const form = useRef();
     const notify = () => toast.success('Message Sent.', {
       position: "bottom-right",
@@ -35,7 +36,10 @@ function Contact () {
           console.log(error.text);
       });
       setEmailSubmitted(true);
+      notify();
       e.target.reset()
+
+      
   };
 
   return (
@@ -117,7 +121,8 @@ function Contact () {
                 placeholder="Your Message..."/>
             </div>
 
-            <button type="submit" onClick={notify} className="bg-gray-600 hover:bg-primary-600 justify-center text-white font-medium py-2.5 px-5 rounded-lg w-50%">
+            <button type="submit" 
+          className="bg-gray-600 hover:bg-primary-600 justify-center text-white font-medium py-2.5 px-5 rounded-lg w-50%">
               Send Message
             </button>
             <ToastContainer />
