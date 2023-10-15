@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 function Contact () {
 
 
-  const [setSubmit, setEmailSubmitted] = useState(false);
+  const [setEmailSubmitted] = useState(false);
 
     const form = useRef();
     const notify = () => toast.success('Message Sent.', {
