@@ -18,7 +18,6 @@ const HomePage = () => {
         <div className='home-text connect'>
             <img src={hero} className="hero connect rotate" alt=''/>
 
-                 {/* <StarsCanvas/> */}
 
                 {/* Introduction */}
                 <div className='flex:col py-10'> 
@@ -48,7 +47,7 @@ const HomePage = () => {
 
                 
                 {/* Introductory Paragraph */}
-                <p className='text-gray-200 py-5 max-w-md z-30000'>
+                <p className='text-gray-200 py-5 max-w-md z-30000 home-con'>
                         I'm a passionate software developer currently pursuing my computer science degree at the University of Toronto. With 5 of coding experience, I specialize in crafting innovative solutions for both front-end and back-end development. This website was developed using React, CSS, and Tailwind CSS to showcase my work and passion for software development. Let's turn your vision into reality!
                 </p>
 

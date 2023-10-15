@@ -150,6 +150,14 @@ p{
 }
 
 
+.home-con{
+  width: 100%;
+  background-color: black;
+  border-radius: 20px;
+  /* overflow: hidden; */
+  
+}
+
 .item-con:hover{
   transform: scale(1.06);
   cursor: pointer;
