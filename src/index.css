@@ -398,7 +398,7 @@ background-color: #121212;
   
     align-items: center;
     justify-content: center;
-    margin: 2rem 5rem;
+    margin: 2rem 2rem;
      
 }
 
@@ -496,6 +496,48 @@ background-color: #121212;
     margin-right: 9rem;
   }
 
+
+.contact-con{
+  width: 90%;
+  padding: 1.3rem 2.0rem;
+  background-color: #282828ee;
+  border-radius: 20px;
+  align-items: right;
+  justify-content: right;
+  margin: 4rem auto;
+  
+  
+}
+
+.contact-text{
+  width: 40%;
+  padding: 0rem 2.0rem;
+  margin: 2rem auto;
+  float: none;
+  font-weight: 400;
+  color: aliceblue;
+  
+  
+}
+
+.contact-form{
+  width: 50%;
+  float:none;
+  margin: auto auto;
+  justify-content: center;
+
+  
+  
+}
+.hero2{
+  transform: scaleX(-1);
+  height: 200px;
+  width: 200px;
+  float: none;
+  margin: auto auto;
+  animation: rotate 4s infinite linear;
+  
+}
 
 
 

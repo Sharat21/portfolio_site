@@ -54,9 +54,8 @@ const Experience = () => {
       };
   return (
     
-        <section className='skill' id="skills">
+        <section className='skill connect' id="skills">
             <div>
-            {/* <img className='fixed' src ={background} alt="pic" /> */}
 
                 <div>
                     <div>
