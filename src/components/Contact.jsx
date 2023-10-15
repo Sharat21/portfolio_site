@@ -126,7 +126,7 @@ function Contact () {
           </div>
         {/* )} */}
 
-<img src={hero} className="hero2"/>
+<img src={hero} className="hero2" alt=""/>
 
       </div>
     </section>

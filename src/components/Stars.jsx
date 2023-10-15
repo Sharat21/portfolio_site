@@ -1,8 +1,7 @@
-import { OrbitControls, Stars } from "@react-three/drei";
+import {Stars } from "@react-three/drei";
 import React, { Suspense } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { useState } from "react";
-import { useRef } from "react";
+import { Canvas } from "@react-three/fiber";
+
 
 const StarsCanvas = () => {
 
