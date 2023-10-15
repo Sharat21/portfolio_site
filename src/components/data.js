@@ -3,7 +3,7 @@ import phone from './Assets/phone.png';
 import treemap from './Assets/Treemap.png';
 import stopvirus from './Assets/stopVirus.png';
 
-export default[
+const data = [
     {
         id:1,
         image:stopvirus,
@@ -114,3 +114,5 @@ export default[
 
     },
 ]
+
+export default data;

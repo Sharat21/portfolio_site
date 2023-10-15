@@ -10,7 +10,7 @@ import "react-toastify/dist/ReactToastify.css";
 function Contact () {
 
 
-  const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const [setEmailSubmitted] = useState(false);
     const form = useRef();
     const notify = () => toast.success('Message Sent.', {
       position: "bottom-right",
@@ -35,45 +35,8 @@ function Contact () {
           console.log(error.text);
       });
       setEmailSubmitted(true);
-      // toast({title: "Message Sent.", status: "success", duration: 2000, position:"top",});
       e.target.reset()
   };
-  // const handleSubmit = async (e) => {
-
-
-    
-  //   e.preventDefault();
-  //   const data = {
-  //     name: e.target.name.value,
-  //     email: e.target.email.value,
-  //     subject: e.target.subject.value,
-  //     message: e.target.message.value,
-  //   };
-  //   const JSONdata = JSON.stringify(data);
-  //   const endpoint = "/api/send";
-
-  //   const options = {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSONdata,
-  //   };
-
-  //   const response = await fetch(endpoint, options);
-  //   const resData = await response.json();
-
-  //   if (response.status === 200) {
-  //     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  //     console.log("Message sent.");
-  //     setEmailSubmitted(true);
-  //   }
-  // };
 
   return (
     

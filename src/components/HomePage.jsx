@@ -16,7 +16,7 @@ const HomePage = () => {
     <div className='h-full w-full bg-black py-20' id='home'>
         <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:4}}>
         <div className='home-text connect'>
-            <img src={hero} className="hero connect rotate"/>
+            <img src={hero} className="hero connect rotate" alt=''/>
 
                  {/* <StarsCanvas/> */}
 

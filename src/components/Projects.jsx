@@ -8,13 +8,12 @@ import items from "./data.js"
 
 
 
-const allCat = ['All', ... new Set(items.map(item => item.category))];
+const allCat = ['All', ...new Set(items.map(item => item.category))];
 console.log(allCat);
 
 const Projects = () => {
 
   const [menuItem, setMenuitem] = useState(items);
-  const [buttons, setButtons] = useState([])
 
   const filter = (button) =>{
 

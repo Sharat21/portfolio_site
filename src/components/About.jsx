@@ -1,12 +1,11 @@
 import React from 'react'
 import sampleImg from './Assets/hero_pic.png';
 import uoft from "./Assets/uoft_logo.png"
-import { Container, Col, Row } from 'react-bootstrap';
 const About = () => {
   return (
     <div className='h-screen-full w-full about-color' id='about'>
 
-      <img src={sampleImg} className="circle"/>
+      <img src={sampleImg} className="circle" alt=''/>
       <div className='max-w-screen-lg items-center py-4'>
 
         <h2 className='text-gray-200 text-7xl sm:text-6xl font-bold title-about '>
@@ -25,7 +24,7 @@ const About = () => {
             </p>
         </div>
     
-      <img src={uoft} className='uni'/>
+      <img src={uoft} className='uni' alt=''/>
 
       <div className='about-con'>
           

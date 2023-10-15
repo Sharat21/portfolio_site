@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from 'flowbite-react';
-import Contact from './Contact';
-import { Link, animateScroll as scroll } from "react-scroll";
+
 
 function Menu({menuItem}) {
 

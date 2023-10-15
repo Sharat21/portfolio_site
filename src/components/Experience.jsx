@@ -29,10 +29,6 @@ import gitlab from "./Assets/gitlab_logo.png"
 import github from "./Assets/github.png"
 import git from "./Assets/git_logo.png"
 
-import {TypeAnimation} from 'react-type-animation';
-import { Link } from "react-scroll";
-import { TbBrandPython} from "react-icons/tb";
-import {Container, Row, Col} from "react-bootstrap"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
